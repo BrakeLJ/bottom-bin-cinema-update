@@ -1,16 +1,22 @@
 import React from 'react';
+import styled from 'styled-components';
 
 import Heading from './Heading';
 
+const StyledHeader = styled.header`
+  height: 100vh;
+  background: var(--color-primary);
+`;
+
 const Header = () => {
   return (
-    <div>
+    <StyledHeader>
       <Heading
         title='Bottom Bin Cinema'
         headingLevel='h1'
         tagline='Find the best worst movies'
       />
-    </div>
+    </StyledHeader>
   );
 };
 
