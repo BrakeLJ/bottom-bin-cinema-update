@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import App from './components/App';
 import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
@@ -10,21 +10,17 @@ const GlobalStyle = createGlobalStyle`
   --color-background: #f0f0f0;
   --color-border: #dfe3e8;
 
-  --color-primary: #007a5b;
-  --color-primary-dark: #00523d;
-  --color-primary-border: #95c9b4;
-  --color-primary-light: #f1f8f5;
+  --color-primary: #2941AB;
+  --color-primary-dark: #080D21;
+  --color-primary-border: #142052;
+  --color-primary-light: #CED5F3;
 
-  --color-alert: #bf0711;
-  --color-alert-dark: #76040a;
+  --color-secondary: #1ED760;
 
-  --color-warning: #b98900;
-  --color-warning-light: #fff5ea;
-  --color-warning-dark: #e1b878;
+  --color-accent: #CC3E28;
 
   --color-text: #222;
-  --font-body: -apple-system, BlinkMacSystemFont, San Francisco, Segoe UI,
-    Roboto, Helvetica Neue, sans-serif;
+  --font-body: 'Oswald', sans-serif;
 }
 
 html {
