@@ -57,6 +57,8 @@ body {
   font-size: 1.6rem;
   font-weight: 400;
   color: var(--color-text);
+  height: 100vh;
+  background: var(--color-secondary);
 }
 
 img {

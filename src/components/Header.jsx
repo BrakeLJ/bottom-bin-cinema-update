@@ -6,6 +6,7 @@ import Heading from './Heading';
 const StyledHeader = styled.header`
   height: 100vh;
   background: var(--color-primary);
+  width: 50%;
 `;
 
 const Header = () => {
